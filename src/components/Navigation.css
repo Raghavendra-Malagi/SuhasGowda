@@ -1,0 +1,51 @@
+
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ul li{
+    list-style: none;
+    font-size: 14px;
+    color: white;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+
+.navigation ul li a:before{
+    content: " ";
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color:#DFB163;
+    transition: 0.5s all;
+    display: none;
+}
+
+.navigation ul li a.active{
+    color: #DFB163;
+    position: relative;
+}
+/* .navigation ul li a.active:before{
+    content: " ";
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color:green;
+    transition: 0.5s all;
+}*/
+.navigation ul li a:hover:before{
+    display: block;
+    width: 100%;
+} 

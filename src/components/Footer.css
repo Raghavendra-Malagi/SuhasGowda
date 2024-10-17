@@ -1,0 +1,67 @@
+.footer_style{
+    background-color: #181818;
+    color: white;
+    padding: 20px ;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.first_div{
+    display: flex;
+    justify-content: space-around;
+}
+.copyright_div{
+    padding:40px 20px;
+    background-color:#181818 ;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #DFB163;
+    width: 100vw;
+}
+.copyright_div p a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.copyright_div p a:hover{
+    border-bottom: 2px solid #DFB163 ;
+    color: #DFB163;
+}
+.getInTouch h1,.quickLinks h1{
+    color: #DFB163;
+    font-size: 1.5rem;
+}
+.getInTouch p{
+    margin: 14px 0;
+    font-size: 1rem;
+}
+.icon{
+    margin-right: 5px;
+}
+.quickLinks ul li{
+    list-style: none;
+}
+.quickLinks ul li a{
+    color:white;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin:14px 0;
+    display: block;
+}
+.getInTouch ul {
+    list-style: none;
+    display: flex;
+}
+.getInTouch ul li {
+    text-align: center;
+    margin:0px 10px 0 0;
+}
+.getInTouch ul li a{
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+}
+.getInTouch ul li a:hover,.quickLinks ul li a:hover{
+    color:#DFB163;
+}
